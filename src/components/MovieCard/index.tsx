@@ -1,3 +1,4 @@
+import clsx from "clsx";
 import Image from "next/image";
 import styles from "./styles.module.scss";
 
@@ -8,11 +9,12 @@ export const imagePath = `https://image.tmdb.org/t/p/original`;
  */
 type Props = {
   movie: any;
+  className?: string;
 };
 
-const MovieCard = ({ movie }: Props) => {
+const MovieCard = ({ movie, className }: Props) => {
   return (
-    <div className={styles.card}>
+    <div className={clsx(styles.card, className)}>
       <div className={styles.image}>
         <Image
           alt={movie.original_title}

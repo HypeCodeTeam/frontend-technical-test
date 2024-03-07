@@ -9,7 +9,10 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@egjs/flicking-plugins": "^4.7.1",
+    "@egjs/react-flicking": "^4.11.2",
     "axios": "^1.6.7",
+    "clsx": "^2.1.0",
     "next": "14.1.1",
     "react": "^18",
     "react-dom": "^18",

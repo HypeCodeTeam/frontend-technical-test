@@ -1,0 +1,27 @@
+.flicking-arrow-next,
+.flicking-arrow-prev {
+    cursor: pointer;
+    height: 64px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 64px;
+    z-index: 2;
+    background-color: #f2a65e;
+    border-radius: 50%;
+}
+
+.flicking-arrow-prev {
+    left: 10px;
+}
+
+.flicking-arrow-next {
+    right: 10px;
+}
+
+.flicking-arrow-next::before,
+.flicking-arrow-next::after,
+.flicking-arrow-prev::before,
+.flicking-arrow-prev::after {
+    background-color: #fff !important;
+}
