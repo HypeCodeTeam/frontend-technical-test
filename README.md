@@ -18,40 +18,21 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 First, fork this project.
 
-Then, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Then, install the dependencies and run the development server:
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
 ## What is expected
 
-- To render a list of movies, you can be inspired by [themoviedb.org](https://www.themoviedb.org/) and our streaming platform [spottley.com](https://spottley.com/)
+- To render a list of movies, you can be inspired by [themoviedb.org](https://www.themoviedb.org/) or other popular streaming platforms
 
 - Display another carousel than the existing one with the most popular series and TV shows / or the different movies by genre (animation, comedy, adventure, etc...)
 
 - Filter these contents by popularity, release date, note, etc...
 
-- To view details about a movie by clicking on it
+- Allow users to view details about a movie by clicking on it
 
 - As your application can be used by thousands of users, make sure to provide some robust safety guards. Some `any` types have been left there on purpose. Please type the any that have been left in the application.
 
